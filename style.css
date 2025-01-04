@@ -62,15 +62,38 @@ button {
     display:flex;
     flex-direction:column;
     align-items:center;
+    flex-grow:1;
+    border-style:dotted;
 }
 
 .cards {
     display:flex;
     align-items:center;
+    flex:1;
 
 }
 
 .card {
     display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.testimony {
+    display:flex;
+    border-style:dotted;
+    flex-direction:column;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.quoteauthor {
+    display:flex;
+    justify-content:flex-end;
+}
+
+.calltoaction {
+    display:flex;
+    
 }
 
