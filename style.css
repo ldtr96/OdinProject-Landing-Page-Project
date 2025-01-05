@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 img {
     max-width:100px;
     max-height:100px;
@@ -7,8 +9,27 @@ img {
 
 .header {
     display:flex;
-    border-style:dotted;
     justify-content:space-between;
+    background-color: #1f2937;
+}
+
+h1 {
+    font-size:24px;
+    color:#F9FAF8;
+}
+
+h2 {
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight:900;
+    margin-bottom:0;
+    margin-top:0px;
+}
+
+h3 {
+    font-size:18px;
+    color:#E5E7EB;
+
 }
 
 ul {
@@ -23,6 +44,8 @@ ul {
 li {
     margin:10px;
     padding-left:0px;
+    font-size:18px;
+    color:#E5E7EB;
 }
 
 .logo {
@@ -30,22 +53,22 @@ li {
     justify-content:flex-start;
     align-items:center;
     padding-left:25px;
+    margin-bottom:0px;
 }
 
 button {
     max-width:100px;
+    background-color:#3882F6;
 }
 
 .headerleft {
     display:flex;
     flex-direction:column;
-    border-style:groove;
 }
 
 .headerright {
     display:flex;
     flex-direction: column;
-    border-style:groove;
     align-content:center;
     justify-content: space-between;
 }
@@ -63,7 +86,6 @@ button {
     flex-direction:column;
     align-items:center;
     flex-grow:1;
-    border-style:dotted;
 }
 
 .cards {
@@ -81,7 +103,6 @@ button {
 
 .testimony {
     display:flex;
-    border-style:dotted;
     flex-direction:column;
     align-items:center;
     flex-wrap:wrap;
@@ -94,6 +115,33 @@ button {
 
 .calltoaction {
     display:flex;
-    
+    flex:1;
+}
+
+.calltoactionitems {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#3882F6;
+    border-style:double;
+}
+
+.callleft {
+    display:flex;
+    flex-direction:column;
+}
+
+footer {
+    margin-top:auto;
+    text-align:center;
+    font-family:'Roboto', sans-serif;
+    background-color: #1f2937;
+}
+
+body {
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    font-family:'Roboto', sans-serif;
 }
 
