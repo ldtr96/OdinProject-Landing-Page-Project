@@ -59,11 +59,13 @@ li {
 button {
     max-width:100px;
     background-color:#3882F6;
+    color:white;
 }
 
 .headerleft {
     display:flex;
     flex-direction:column;
+    margin-left:10px;
 }
 
 .headerright {
@@ -71,6 +73,7 @@ button {
     flex-direction: column;
     align-content:center;
     justify-content: space-between;
+    margin-right: 10px;
 }
 
 .placeholder {
@@ -79,6 +82,9 @@ button {
     justify-content:center;
     align-items:center;
     flex:1;
+    color:white;
+    border-color:white;
+    margin-bottom:25px;
 }
 
 .info-section {
@@ -86,6 +92,7 @@ button {
     flex-direction:column;
     align-items:center;
     flex-grow:1;
+
 }
 
 .cards {
@@ -99,6 +106,7 @@ button {
     display: flex;
     align-items: center;
     margin: 20px;
+    flex:1;
 }
 
 .testimony {
@@ -106,15 +114,26 @@ button {
     flex-direction:column;
     align-items:center;
     flex-wrap:wrap;
+    background-color: #E5E7EB;
+    flex:1;
+    font-size:36px;
+    color:#1F2937;
+    padding:30px;
+    font-style:italic;
+
 }
 
 .quoteauthor {
     display:flex;
     justify-content:flex-end;
+    font-weight:bold;
 }
 
 .calltoaction {
     display:flex;
+    justify-content:center;
+    margin-top:40px;
+    margin-bottom:100px;
     flex:1;
 }
 
@@ -123,7 +142,9 @@ button {
     justify-content:center;
     align-items:center;
     background-color:#3882F6;
-    border-style:double;
+    color:white;
+    border-radius:4px;
+    padding:10px;
 }
 
 .callleft {
@@ -136,6 +157,7 @@ footer {
     text-align:center;
     font-family:'Roboto', sans-serif;
     background-color: #1f2937;
+    color:white;
 }
 
 body {
@@ -145,3 +167,22 @@ body {
     font-family:'Roboto', sans-serif;
 }
 
+.signupbottom {
+    color:white;
+    border-color:white;
+    margin:50px;
+    border-radius:8px;
+}
+
+.signuptop {
+    margin-top:25px;
+    margin-bottom:25px;
+    border-radius:8px;
+}
+
+.info-section p {
+    flex-grow:1;
+    font-size:36px;
+    font-weight:900px;
+    color:#1F2937;
+}
